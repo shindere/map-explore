@@ -3,8 +3,29 @@
 
 ## Notes on exploring (OSM) maps
 
+### PostGIS
+
 Deploying a local copy of the OSM db:
 https://wiki.openstreetmap.org/wiki/Osmosis/PostGIS_Setup
+
+### Command line tools
+
+* [osmium-tool](https://osmcode.org/osmium-tool/manual.html), a command line tool to manipulate OSM data
+* [osmfilter](https://wiki.openstreetmap.org/wiki/Osmfilter), a command line tool to filter OSM data
+
+### Python
+
+* [overpassify](https://github.com/LivInTheLookingGlass/overpassify), a python library to OverpassQL transpiler
+* [Cartes](https://cartes-viz.github.io/osm.html), a python library offers some facilities to request and parse the results from the OpenStreetMap Nominatim (search engine) and Overpass (map data database) API.
+
+### Other
+
+* [Overpass API via XML](https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide)
+* [osmdata](https://docs.ropensci.org/osmdata/reference/opq.html), R package to build Overpass querie
+
+### ChatGPT
+
+* [KID2 Spot Application](https://github.com/dw-innovation/kid2-spot), a natural language interface for querying OpenStreetMap data via GPT.
 
 ## Notes on subway station structure in OpenStreetMap
 
